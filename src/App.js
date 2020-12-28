@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import HomePage from './page/homepage/homepage.component';
+import HomePage from './pages/homepage/homepage.component';
 
 const App = () => {
   return (
-    <main className='main-container'>
+    <div>
       <HomePage />
-    </main>
+    </div>
   );
 }
 
